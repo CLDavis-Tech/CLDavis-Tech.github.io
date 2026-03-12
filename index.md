@@ -45,7 +45,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition and s
 | **Bandwidth** | 15.0 kHz | High SNR; isolates carrier from noise floor. |
 
 <video width="100%" height="auto" controls>
-  <source src="assets/videos/MightyMuleV2Test1.mp4" type="video/mp4">
+  <source src="assets/videos/MightyMuleV2SignalTest1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
