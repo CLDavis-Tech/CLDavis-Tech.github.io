@@ -24,9 +24,44 @@ Leveraging **Visual Studio and Python** to analyze captured signal data. Focusin
 * **CompTIA A+** (In Progress)
 * **FCC Amateur Radio License** (Technician Class - In Progress)
 
+# Project Objective: Mighty Mule RF Security & Optimization
+
+## Phase I: Signal Integrity & RSSI Benchmarking
+**Goal:** Comparative analysis of legacy vs. new transmitter output.
+* **Analysis:** Benchmarking the output power (measured in dBFS) of legacy transmitters against new replacement units.
+* **Controlled Variables:** All tests conducted with a standardized 3.0V DC power source (new batteries with voltage tested at 3.2v) and maintained at a fixed 1-meter distance from the receiver to ensure data consistency.
+* **Metrics:** Establishing a baseline for Signal-to-Noise Ratio (SNR) and spectral purity to diagnose hardware degradation and intermittent range issues in aging units.
+
+## Phase II: Signal Decoding & Cryptographic Assessment
+**Goal:** Bitstream extraction and security audit.
+* **Capture:** Utilizing SDR++ and Universal Radio Hacker (URH) to isolate the OOK (On-Off Keying) pulse-stream.
+* **Objective:** Decoding the bitstream for Fixed-Code vs. Rolling-Code analysis. This determines the system's susceptibility to Replay Attacks and brute-force "fixed-bit" exploitation.
+
+
+
+## Phase III: Receiver Hardware Optimization (Antenna Design)
+**Goal:** Custom-tuned 1/4 Wave Monopole Implementation.
+* **Design:** Engineering a custom-tuned antenna to replace the high-loss PCB-trace/press-on factory antenna.
+* **Execution:**
+    * Calculating optimal element length for the 318 MHz center frequency.
+    * Implementing a dedicated ground plane to reduce SWR (Standing Wave Ratio).
+    * Interfacing directly with the receiver PCB's RF input to minimize insertion loss.
+
 ---
 
-### 🎥 Project Demonstrations
+### Technical Capture Specifications (SDR++)
+| Setting | Value | Rationale |
+| :--- | :--- | :--- |
+| **Gain** | 0.9 dB | Prevents LNA saturation/clipping from proximity. |
+| **AGC** | OFF | Maintains consistent amplitude for data analysis. |
+| **Offset Tuning** | ENABLED | Shifts DC spike away from 318 MHz center. |
+| **IQ Correction**| ENABLED | Eliminates spectral mirroring/ghost images. |
+| **Radio Mode** | AM | Optimal for visualizing/hearing OOK pulse-width. |
+| **Bandwidth** | 15.0 kHz | High SNR; isolates carrier from noise floor. |
+
+---
+
+### 🎥 Project Demonstration Videos Coming Soon......🛰️ [UPLINK] PENDING VIDEO UPLOAD...
 * **[Build: dump1090 Aviation Server Deployment]** - *(Photos/Video Coming Soon)*
 * **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(Photos/Video Coming Soon)*
 * **[Wireless: 802.11 Network Mapping & Analysis using Kismet]** - *(Photos/Video Coming Soon)*
