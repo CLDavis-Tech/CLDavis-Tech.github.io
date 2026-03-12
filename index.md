@@ -17,20 +17,39 @@ Analyzing sub-GHz consumer devices to decode signals and study **rolling code en
 ### 📊✈️ Signal Analysis & Aviation Tracking
 Operating **Software Defined Radio (SDR)** hardware for signal acquisition and spectrum analysis. Successfully deployed and hosted a local dump1090 aviation tracking server, managing real-time ADS-B data decoding and network distribution.
 
-### 🐍💻 Software Development & Data Analysis
-Leveraging **Visual Studio and Python** to analyze captured signal data. Focusing on the logic and structure of bitstreams to better understand cryptographic implementations at the hardware level.
-
 ### 📜🚀 Professional Development
 * **CompTIA A+** (In Progress)
 * **FCC Amateur Radio License** (Technician Class - In Progress)
+
+---
 
 # Project Objective: Mighty Mule RF Security & Optimization
 
 ## Phase I: Signal Integrity & RSSI Benchmarking
 **Goal:** Comparative analysis of legacy vs. new transmitter output.
-* **Analysis:** Benchmarking the output power (measured in dBFS) of legacy transmitters against new replacement units.
-* **Controlled Variables:** All tests conducted with a standardized 3.0V DC power source (new batteries with voltage tested at 3.2v) and maintained at a fixed 1-meter distance from the receiver to ensure data consistency.
-* **Metrics:** Establishing a baseline for Signal-to-Noise Ratio (SNR) and spectral purity to diagnose hardware degradation and intermittent range issues in aging units.
+
+**Analysis:** Benchmarking the output power (measured in dBFS) of legacy transmitters against new replacement units.
+
+**Controlled Variables:** All tests conducted with a standardized **3V Lithium Coin Cell** (verified at 3.2V) and maintained at a fixed 1-meter distance from the receiver to ensure data consistency.
+
+**Metrics:** Establishing a baseline for Signal-to-Noise Ratio (SNR) and spectral purity to diagnose hardware degradation.
+
+### Technical Capture Specifications (SDR++)
+| Setting | Value | Rationale |
+| :--- | :--- | :--- |
+| **Gain** | 0.0 dB | High-proximity capture; ensures zero LNA clipping for bitstream purity. |
+| **AGC** | OFF | Maintains consistent amplitude for data analysis. |
+| **Offset Tuning** | ENABLED | Shifts DC spike away from 318 MHz center. |
+| **IQ Correction**| ENABLED | Eliminates spectral mirroring/ghost images. |
+| **Radio Mode** | AM | Optimal for visualizing/hearing OOK pulse-width. |
+| **Bandwidth** | 15.0 kHz | High SNR; isolates carrier from noise floor. |
+
+<video width="100%" height="auto" controls>
+  <source src="assets/videos/MightyMuleV2Test1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
 
 ## Phase II: Signal Decoding & Cryptographic Assessment
 **Goal:** Bitstream extraction and security audit.
@@ -49,21 +68,9 @@ Leveraging **Visual Studio and Python** to analyze captured signal data. Focusin
 
 ---
 
-### Technical Capture Specifications (SDR++)
-| Setting | Value | Rationale |
-| :--- | :--- | :--- |
-| **Gain** | 0.9 dB | Prevents LNA saturation/clipping from proximity. |
-| **AGC** | OFF | Maintains consistent amplitude for data analysis. |
-| **Offset Tuning** | ENABLED | Shifts DC spike away from 318 MHz center. |
-| **IQ Correction**| ENABLED | Eliminates spectral mirroring/ghost images. |
-| **Radio Mode** | AM | Optimal for visualizing/hearing OOK pulse-width. |
-| **Bandwidth** | 15.0 kHz | High SNR; isolates carrier from noise floor. |
-
----
-
-### 🎥 Project Demonstration Videos Coming Soon......🛰️ [UPLINK] PENDING VIDEO UPLOAD...
+### 🎥 Project Demonstration Videos
+* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(See Video Above)*
 * **[Build: dump1090 Aviation Server Deployment]** - *(Photos/Video Coming Soon)*
-* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(Photos/Video Coming Soon)*
 * **[Wireless: 802.11 Network Mapping & Analysis using Kismet]** - *(Photos/Video Coming Soon)*
 * **[Scripting: Python Bitstream Parser for Captured RF Data]** - *(Photos/Video Coming Soon)*
 * **[Lab: Hardening Windows Target Machines against Kali Linux Exploits]** - *(Photos/Video Coming Soon)*
