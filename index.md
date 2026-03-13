@@ -5,6 +5,8 @@ Driven by a lifelong curiosity for how things work, I spend my personal time exp
 
 ---
 
+## Self-Directed Technical Research & Lab Work
+
 ### 🖥️🥼 Virtualization & Lab Architecture
 Designed dedicated lab environments using **VMware** and **VirtualBox** to bridge the gap between theory and practice, with additional experience in **Hyper-V** integration. Includes the custom deployment of specialized **Kali Linux** or **Parrot OS** distributions and Windows target machines to study attack/defense scenarios.
 
@@ -44,10 +46,13 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition and s
 | **Radio Mode** | AM | Optimal for visualizing/hearing OOK pulse-width. |
 | **Bandwidth** | 15.0 kHz | High SNR; isolates carrier from noise floor. |
 
+
 <video width="100%" height="auto" controls>
   <source src="assets/videos/MightyMuleV2SignalTest1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+Final Documentation and the rest of the  video demonstrations are currently in post-production
 
 ---
 
@@ -69,7 +74,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition and s
 ---
 
 ### 🎥 Project Demonstration Videos
-* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(See Video Above)*
+* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(Video coming soon)
 * **[Build: dump1090 Aviation Server Deployment]** - *(Photos/Video Coming Soon)*
 * **[Wireless: 802.11 Network Mapping & Analysis using Kismet]** - *(Photos/Video Coming Soon)*
 * **[Scripting: Python Bitstream Parser for Captured RF Data]** - *(Photos/Video Coming Soon)*
