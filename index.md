@@ -1,4 +1,3 @@
-# Self-Directed Technical Research & Lab Work
 **Colton Lewis Davis**
 
 Driven by a lifelong curiosity for how things work, I spend my personal time exploring the "full stack" of modern technology—from raw Electrical Theory and Radio Frequency to the software and security layers that sit on top of them.
