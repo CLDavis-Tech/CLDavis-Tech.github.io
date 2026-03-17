@@ -37,7 +37,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 **Goal:** Capture EAPOL Handshake frames within a controlled environment to study Layer 2 wireless vulnerabilities.
 
 <p align="center">
-  <img src="./assets/photos/Deauth_WPA2_Safe.png" width="750" title="Deauthentication Attack">
+  <img src="assets/photos/Deauth_WPA2_Safe.png" width="750" alt="Deauthentication Attack">
   <br>
   <em>Figure 1: Executing a directed deauthentication attack to trigger a re-association.</em>
 </p>
@@ -47,7 +47,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 * Executed a **Deauthentication Attack** using `aireplay-ng` to force a client re-association, triggering the automatic **4-way handshake**.
 
 <p align="center">
-  <img src="./assets/photos/WPA2_Handshake_Safe.jpg" width="750" title="WPA2 Handshake Capture">
+  <img src="assets/photos/WPA2_Handshake_Safe.jpg" width="750" alt="WPA2 Handshake Capture">
   <br>
   <em>Figure 2: Successful capture of WPA2 4-way handshake (Redacted for OPSEC)</em>
 </p>
