@@ -36,13 +36,21 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 ## Phase I: Monitor Mode & Packet Acquisition
 **Goal:** Capture EAPOL Handshake frames within a controlled environment to study Layer 2 wireless vulnerabilities.
 
-![Figure 1: Executing a directed deauthentication attack to trigger a re-association.](assets/Photos/Deauth_WPA2_Safe.png)
+<p align="center">
+  <img src="assets/Photos/Deauth_WPA2_Safe.png" height="450" alt="Deauthentication Attack">
+  <br>
+  <em>Figure 1: Executing a directed deauthentication attack to trigger a re-association.</em>
+</p>
 
 **Methodology:**
 * Initialized a high-gain NIC into **RFMON (Monitor Mode)** to sniff 802.11 management frames.
 * Executed a **Deauthentication Attack** using `aireplay-ng` to force a client re-association, triggering the automatic **4-way handshake**.
 
-![Figure 2: Successful capture of WPA2 4-way handshake (Redacted for OPSEC)](assets/Photos/WPA2_Handshake_Safe.jpg)
+<p align="center">
+  <img src="assets/Photos/WPA2_Handshake_Safe.jpg" height="450" alt="WPA2 Handshake Capture">
+  <br>
+  <em>Figure 2: Successful capture of WPA2 4-way handshake (Redacted for OPSEC)</em>
+</p>
 
 
 ### Technical Capture Specifications (Aircrack-ng Suite)
