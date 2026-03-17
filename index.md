@@ -11,6 +11,10 @@ I possess a radical drive to understand the underlying systems of our universe; 
 
 ## Self-Directed Technical Research & Lab Work
 
+### 📜🚀 Professional Development
+* **CompTIA Security+** (In Progress)
+* **FCC Amateur Radio License** (Technician Class - In Progress)
+
 ### 🖥️🥼 Virtualization & Lab Architecture
 Designed dedicated lab environments using **VMware** and **VirtualBox** to bridge the gap between theory and practice, with additional experience in **Hyper-V** integration. Includes the custom deployment of specialized **Kali Linux** or **Parrot OS** distributions and Windows target machines to study attack/defense scenarios.
 
@@ -23,9 +27,7 @@ Analyzing sub-GHz consumer devices to decode signals and study **rolling code en
 ### 📊✈️ Signal Analysis & Aviation Tracking
 Operating **Software Defined Radio (SDR)** hardware for signal acquisition and spectrum analysis. Successfully deployed and hosted a local dump1090 aviation tracking server, managing real-time ADS-B data decoding and network distribution.
 
-### 📜🚀 Professional Development
-* **CompTIA Security+** (In Progress)
-* **FCC Amateur Radio License** (Technician Class - In Progress)
+
 
 ---
 
