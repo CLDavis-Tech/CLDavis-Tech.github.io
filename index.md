@@ -52,13 +52,16 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
   <em>Figure 2: Successful capture of WPA2 4-way handshake (Redacted for OPSEC)</em>
 </p>
 
+
 ### Technical Capture Specifications (Aircrack-ng Suite)
+
 | Setting | Value | Rationale |
 | :--- | :--- | :--- |
 | **Interface Mode** | Monitor (RFMON) | Allows sniffing of raw 802.11 frames without AP association. |
 | **Attack Type** | Directed Deauth (Code 7) | Forces a specific Station (Client) to disconnect/reconnect. |
 | **Captured Frame** | EAPOL / Handshake | Contains the Nonces/MIC needed for offline crypto-analysis. |
 | **Result** | SUCCESS | Handshake acquired on Channel 11. |
+
 
 ## Phase II: Cryptographic Resilience Testing
 **Goal:** Verification of password entropy against dictionary-based wordlist attacks.
@@ -72,13 +75,16 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 ## Phase I: Signal Integrity & RSSI Benchmarking
 **Goal:** Comparative analysis of legacy vs. new transmitter output to diagnose hardware degradation.
 
+
 ### Technical Capture Specifications (SDR++)
+
 | Setting | Value | Rationale |
 | :--- | :--- | :--- |
 | **Gain** | 0.0 dB | High-proximity capture; ensures zero LNA clipping for bitstream purity. |
 | **AGC** | OFF | Maintains consistent amplitude for data analysis. |
 | **Offset Tuning** | ENABLED | Shifts DC spike away from 318 MHz center. |
 | **Radio Mode** | AM | Optimal for visualizing/hearing OOK pulse-width. |
+
 
 <video width="100%" height="auto" controls>
   <source src="assets/videos/MightyMuleV2SignalTest1.mp4" type="video/mp4">
