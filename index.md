@@ -24,7 +24,7 @@ Analyzing sub-GHz consumer devices to decode signals and study **rolling code en
 Operating **Software Defined Radio (SDR)** hardware for signal acquisition and spectrum analysis. Successfully deployed and hosted a local dump1090 aviation tracking server, managing real-time ADS-B data decoding and network distribution.
 
 ### 📜🚀 Professional Development
-* **CompTIA A+** (In Progress)
+* **CompTIA Security+** (In Progress)
 * **FCC Amateur Radio License** (Technician Class - In Progress)
 
 ---
