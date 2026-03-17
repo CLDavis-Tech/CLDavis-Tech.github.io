@@ -37,7 +37,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 **Goal:** Capture EAPOL Handshake frames within a controlled environment to study Layer 2 wireless vulnerabilities.
 
 <p align="center">
-  <img src="assets/Photos/Deauth_WPA2_Safe.png" height="225" alt="Deauthentication Attack">
+  <img src="assets/Photos/Deauth_WPA2_Safe.png" height="450" alt="Deauthentication Attack">
   <br>
   <em>Figure 1: Executing a directed deauthentication attack to trigger a re-association.</em>
 </p>
@@ -47,7 +47,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 * Executed a **Deauthentication Attack** using `aireplay-ng` to force a client re-association, triggering the automatic **4-way handshake**.
 
 <p align="center">
-  <img src="assets/Photos/WPA2_Handshake_Safe.jpg" height="225" alt="WPA2 Handshake Capture">
+  <img src="assets/Photos/WPA2_Handshake_Safe.jpg" height="450" alt="WPA2 Handshake Capture">
   <br>
   <em>Figure 2: Successful capture of WPA2 4-way handshake (Redacted for OPSEC)</em>
 </p>
@@ -102,6 +102,4 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 ---
 
 ### 🎥 Project Demonstration Status
-* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers]** - *Post-Production*
-* **[Build: dump1090 Aviation Server Deployment]** - *Documentation in Progress*
-* **[Lab: Hardening Windows Target Machines]** - *Testing in Progress*
+* **[Analysis: Decoding
