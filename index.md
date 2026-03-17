@@ -1,6 +1,11 @@
-**Colton Lewis Davis**
+# Colton Lewis Davis
 
-Driven by a lifelong curiosity for how things work, I spend my personal time exploring the "full stack" of modern technology—from raw Electrical Theory and Radio Frequency to the software and security layers that sit on top of them.
+I am a technical investigator driven by a lifelong, obsessive passion for science and the mechanics of the physical world. I don't just "work" with technology; I live it. From the moment I could talk and ask "why" or "how", I’ve been driven to deconstruct how things work. Picture a 5-year-old with a spaghetti-stained mouth, screwdriver in hand, taking apart every household electronic in sight—that drive has never left me. 
+
+My professional foundation is built on 11 years of manufacturing electromechanical devices. I am a builder who thrives in high-stakes, demanding environments. I like to look at the bigger picture and fully understand how systems work. Whether I’m at a lab bench or in the field, I approach every problem with the analytical mindset of a scientist. 
+
+**Core Philosophy:**
+I possess a radical drive to understand the underlying systems of our universe; I recognize the same patterns of logic in the predictable chaos of geological systems as I do during complex signal analysis. Whether it is a viral replication cycle in a microorganism or malware, I seek to understand how the system functions at its most fundamental level. For some reason however, after all these years, it seems like I only have more questions. I guess that innate curiosity is really what makes me, me. I hold a deep respect for the uncompromising rigor of pioneers like Marie Curie and Nikola Tesla and am committed to the betterment of mankind through disciplined research.
 
 ---
 
@@ -51,7 +56,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition and s
   Your browser does not support the video tag.
 </video>
 
-Final Documentation and the rest of the  video demonstrations are currently in post-production
+*Final Documentation and the rest of the video demonstrations are currently in post-production.*
 
 ---
 
@@ -59,8 +64,6 @@ Final Documentation and the rest of the  video demonstrations are currently in p
 **Goal:** Bitstream extraction and security audit.
 * **Capture:** Utilizing SDR++ and Universal Radio Hacker (URH) to isolate the OOK (On-Off Keying) pulse-stream.
 * **Objective:** Decoding the bitstream for Fixed-Code vs. Rolling-Code analysis. This determines the system's susceptibility to Replay Attacks and brute-force "fixed-bit" exploitation.
-
-
 
 ## Phase III: Receiver Hardware Optimization (Antenna Design)
 **Goal:** Custom-tuned 1/4 Wave Monopole Implementation.
@@ -73,7 +76,7 @@ Final Documentation and the rest of the  video demonstrations are currently in p
 ---
 
 ### 🎥 Project Demonstration Videos
-* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(Video coming soon)
+* **[Analysis: Decoding Mighty Mule Sub-GHz Gate Openers with SDR++]** - *(Video coming soon)*
 * **[Build: dump1090 Aviation Server Deployment]** - *(Photos/Video Coming Soon)*
 * **[Wireless: 802.11 Network Mapping & Analysis using Kismet]** - *(Photos/Video Coming Soon)*
 * **[Scripting: Python Bitstream Parser for Captured RF Data]** - *(Photos/Video Coming Soon)*
