@@ -141,6 +141,3 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 * **OPSEC Protocol:** To demonstrate technical responsibility, high-risk metadata (Signal Strength and precise Receiver Coordinates) has been redacted from the public documentation to prevent ground station triangulation.
 
 ---
-
-### 🎥 Project Demonstration Status
-* **[Analysis: Decoding ADS-B Bitstreams]** - Complete
