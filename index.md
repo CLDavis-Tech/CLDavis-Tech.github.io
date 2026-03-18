@@ -4,6 +4,8 @@ I am a technical investigator driven by a lifelong, obsessive passion for scienc
 
 My professional foundation is built on 11 years of manufacturing electromechanical devices. I am a builder who thrives in high-stakes, demanding environments. I like to look at the bigger picture and fully understand how systems work. Whether I’m at a lab bench or in the field, I approach every problem with the analytical mindset of a scientist. 
 
+As such, I am currently studying for the CompTIA Security+ exam and will soon obtain the FCC Technician Class License. I aspire to take my cumulative experience and explore the professional realm of **OT Security** and **ICS/SCADA** systems.
+
 ---
 
 ## Self-Directed Technical Research & Lab Work
@@ -136,5 +138,3 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 * **Data Flow:** The decoded data is pushed to a local web server (**tar1090**) which compiles the telemetry into a real-time JSON feed.
 * **The Loopback Environment:** By hosting the dashboard on **127.0.0.1:8080**, the data remains strictly within the local lab environment. This proves the ability to manage a full-stack SIGINT pipeline—from the physical antenna to a functional browser-based UI—without relying on third-party internet services.
 * **OPSEC Protocol:** To demonstrate technical responsibility, high-risk metadata (Signal Strength and precise Receiver Coordinates) has been redacted from the public documentation to prevent ground station triangulation.
-
----
