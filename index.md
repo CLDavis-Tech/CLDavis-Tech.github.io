@@ -4,9 +4,6 @@ I am a technical investigator driven by a lifelong, obsessive passion for scienc
 
 My professional foundation is built on 11 years of manufacturing electromechanical devices. I am a builder who thrives in high-stakes, demanding environments. I like to look at the bigger picture and fully understand how systems work. Whether I’m at a lab bench or in the field, I approach every problem with the analytical mindset of a scientist. 
 
-**Core Philosophy:**
-I possess a radical drive to understand the underlying systems of our universe; I recognize the same patterns of logic in the predictable chaos of geological systems as I do during complex signal analysis. Whether it is a viral replication cycle in a microorganism or malware, I seek to understand how the system functions at its most fundamental level. For some reason however, after all these years, it seems like I only have more questions. I guess that innate curiosity is really what makes me, me. I hold a deep respect for the uncompromising rigor of pioneers like Marie Curie and Nikola Tesla and am committed to the betterment of mankind through disciplined research.
-
 ---
 
 ## Self-Directed Technical Research & Lab Work
