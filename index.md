@@ -38,9 +38,15 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 **Goal:** Capture EAPOL Handshake frames within a controlled environment to study Layer 2 wireless vulnerabilities.
 
 <p align="center">
+  <img src="assets/Photos/USB_NIC_Safe.jpg" height="450" alt="Specialized USB NIC">
+  <br>
+  <em>Figure 1: High-gain wireless interface configured for packet injection and monitoring.</em>
+</p>
+
+<p align="center">
   <img src="assets/Photos/Deauth_WPA2_Safe.png" height="450" alt="Deauthentication Attack">
   <br>
-  <em>Figure 1: Executing a directed deauthentication attack to trigger a re-association.</em>
+  <em>Figure 2: Executing a directed deauthentication attack to trigger a re-association.</em>
 </p>
 
 **Methodology:**
@@ -50,7 +56,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 <p align="center">
   <img src="assets/Photos/WPA2_Handshake_Safe.jpg" height="450" alt="WPA2 Handshake Capture">
   <br>
-  <em>Figure 2: Successful capture of WPA2 4-way handshake (Redacted for OPSEC)</em>
+  <em>Figure 3: Successful capture of WPA2 4-way handshake (Redacted for OPSEC).</em>
 </p>
 
 ### Technical Capture Specifications (Aircrack-ng Suite)
@@ -106,7 +112,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 <p align="center">
   <img src="assets/Photos/Software_Defined_Radio_Safe.jpg" width="100%" alt="SDR Signal Acquisition">
   <br>
-  <em>Figure 3: Initializing the RTL-SDR for wideband signal acquisition at 1090 MHz.</em>
+  <em>Figure 4: Initializing the RTL-SDR for wideband signal acquisition at 1090 MHz.</em>
 </p>
 
 ### Technical Theory: How 1090 MHz ADS-B Works
@@ -120,13 +126,13 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 <p align="center">
   <img src="assets/Photos/Dump1090_Snip2_Safe.png" width="100%" alt="ADS-B Localhost Server">
   <br>
-  <em>Figure 4: Localized ground station interface hosted on 127.0.0.1 (Loopback).</em>
+  <em>Figure 5: Localized ground station interface hosted on 127.0.0.1 (Loopback).</em>
 </p>
 
 <p align="center">
   <img src="assets/Photos/Dump1090_Snip_Safe.png" width="85%" alt="ADS-B Data Table">
   <br>
-  <em>Figure 5: Decoded aircraft telemetry. Lat/Lon and Distance data sanitized for OPSEC.</em>
+  <em>Figure 6: Decoded aircraft telemetry. Lat/Lon and Distance data sanitized for OPSEC.</em>
 </p>
 
 **System Integration:**
