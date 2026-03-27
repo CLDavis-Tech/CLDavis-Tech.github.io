@@ -109,4 +109,7 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
 **Goal:** Capture and decode Automatic Dependent Surveillance–Broadcast (ADS-B) signals to visualize real-time airspace data.
 
 <p align="center">
-  <img src="
+  <img src="assets/Photos/Software_Defined_Radio_Safe.jpg" height="450" alt="Software Defined Radio Setup">
+  <br>
+  <em>Figure 4: SDR hardware and antenna configuration for 1090 MHz ADS-B signal acquisition.</em>
+</p>
