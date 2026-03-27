@@ -113,3 +113,24 @@ Operating **Software Defined Radio (SDR)** hardware for signal acquisition. Succ
   <br>
   <em>Figure 4: SDR hardware and antenna configuration for 1090 MHz ADS-B signal acquisition.</em>
 </p>
+
+**Methodology & Privacy Configuration:**
+*   **Local Server Setup:** Deployed `dump1090` to decode raw Mode-S telemetry and hosted a local web server for real-time visualization of flight paths. This allows for the browser-based monitoring of altitude, squawk codes, and heading data.
+*   **OPSEC & Location Privacy:** A critical configuration change was made to the startup parameters to ensure the device's physical location was not broadcast. By intentionally omitting the `--lat` and `--lon` coordinates in the configuration file, the station maintains its tracking capability while ensuring the fixed geographic coordinates of the lab environment remain private.
+
+<p align="center">
+  <img src="assets/Photos/Dump1090_Web_Safe.png" height="225">
+</p>
+
+<p align="center">
+  <img src="assets/Photos/Dump1090_Snip_Safe.png" height="225">
+</p>
+
+**Results:**
+The system successfully functions as a private ADS-B ground station, providing high-fidelity tracking of local aviation traffic within a ~50-mile radius without compromising site anonymity.
+
+---
+
+### Upcoming Project: High-Performance ADS-B Ground Station
+
+My next phase of research involves an optimization of my local 1090 MHz aviation tracking server to significantly extend its detection radius and signal reliability. The core of this upgrade is a custom-fabricated 1/4 wave ground plane antenna, precision-tuned to 1090 MHz to minimize SWR (Standing Wave Ratio) and maximize resonant efficiency. To maintain a low noise floor, I am integrating a SAW bandpass filter to mitigate front-end desensitization caused by high-power 5G and LTE cellular interference in adjacent bands. This filtered signal will be boosted by a mast-head Low Noise Amplifier (LNA), powered via a Bias-T injection system to overcome coaxial attenuation over the cable run. By combining custom-tuned geometry with active signal processing, this build transforms a basic RTL-SDR into a professional-grade aerospace monitoring station.
